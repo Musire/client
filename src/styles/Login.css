@@ -1,0 +1,43 @@
+:root {
+    --intrinsic: #16161d;
+    --background: rgb(55, 150, 153);
+    --navbar: rgb(13, 65, 66)
+  }
+
+  
+  .form-container {
+    background-color: var(--navbar);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25em;
+    width: 15em;
+    border-radius: 5px;
+  }
+
+  h1 {
+    transform: translateX(-.75em);
+    margin: -.5em;
+  }
+  
+  input[type=text], input[type=password] {
+    margin: 1em;
+    height: 2em;
+  }
+  
+  input[type=submit] {
+    background-color: var(--navbar);
+    color: whitesmoke;
+    height: 2em;
+    width: 10em;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 1em;
+  }
+
+  input[type=submit]:hover {
+      background-color: var(--background);
+      color: var(--navbar);
+      transition: all 350ms ease-in-out;
+  }

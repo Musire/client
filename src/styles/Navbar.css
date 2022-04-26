@@ -1,0 +1,44 @@
+:root {
+    --intrinsic: #16161d;
+    --background: rgb(55, 150, 153);
+    --navbar: rgb(13, 65, 66)
+}
+
+
+.navbar-holder {
+    background-color: var(--navbar);
+    height: 20vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    text-decoration: dashed;
+    margin-right: 2em;
+}
+
+h1 {
+    margin-left: 1em;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.navbar-link {
+    all: unset;
+    font-size: 24px;
+    padding: 1em 1.75em;
+    border-radius: 5px;
+}
+
+.navbar-link:hover {
+    background-color: var(--background );
+    color: var(--navbar);
+    transition: all 350ms ease-in-out;
+    cursor: pointer;
+}
+
